@@ -12,6 +12,12 @@ pip install djangorestframework==3.13.0
 pip install markdown       
 pip install django-filter  
 django-admin startproject django_project .
+mkdir templates
+mkdir static
+mkdir static/css
+mkdir static/js
+mkdir static/img
+py manage.py startapp core 
 pip freeze > requirements.txt
 echo. > README.md
 copy D:\codes\django\.gitignore .
@@ -25,8 +31,13 @@ __________________________________________________________________
 ------------------------------------------------------------------
 __________________________________________________________________
 
+py manage.py startapp core 
+mkdir .\core\templates\core
+type nul > .\core\templates\core\home.html
+<!-- templates/home.html -->
+<h1>Homepage</h1>
 
-
+"<!-- templates/home.html --><h1>Homepage</h1>" > .\core\templates\core\home.html
 =================================================================
 
 		Deply to python anywhere
@@ -60,6 +71,11 @@ from django.utils.translation import gettext_lazy as _
 			random commands
 
 *****************************************************************
+"DIRS": [BASE_DIR / "templates"], 
+STATIC_URL = "/static/"
+STATICFILES_DIRS = [BASE_DIR / "static"]
+git commit -m "
+
 django-admin startproject
 
 py manage.py runserver
@@ -104,7 +120,6 @@ python manage.py migrate auth zero
 python manage.py migrate contenttypes zero
 python manage.py migrate sessions zero
 
-git commit -m "
 =================================================
 
 ==================================================
