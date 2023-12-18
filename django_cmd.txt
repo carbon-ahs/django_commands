@@ -4,6 +4,12 @@
 
 		INIT A NEW PROJECT IN VSCODE CMD
 
+
+
+python -m venv .venv
+.venv\Scripts\activate.bat
+pip install -r requirements.txt
+py manage.py runserver
 =================================================================
 python -m venv .venv
 .venv\Scripts\activate.bat
