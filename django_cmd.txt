@@ -84,6 +84,7 @@ from django.utils.translation import gettext_lazy as _
 "DIRS": [BASE_DIR / "templates"], 
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [BASE_DIR / "static"]
+git add .
 git commit -m "
 
 django-admin startproject
