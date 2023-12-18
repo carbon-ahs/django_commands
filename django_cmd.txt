@@ -13,6 +13,7 @@ pip install markdown
 pip install django-filter  
 django-admin startproject django_project .
 mkdir templates
+mkdir templates/core
 mkdir static
 mkdir static/css
 mkdir static/js
