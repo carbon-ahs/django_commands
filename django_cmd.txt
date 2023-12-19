@@ -85,6 +85,7 @@ from django.utils.translation import gettext_lazy as _
 "DIRS": [BASE_DIR / "templates"], 
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [BASE_DIR / "static"]
+pip freeze > requirements.txt
 git add .
 git commit -m "
 
