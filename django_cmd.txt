@@ -136,7 +136,7 @@ python manage.py migrate sessions zero
 =================================================
 
 ==================================================
-
+git init .
 git remote add origine <repo_link>
 git pull origine
 git checkout <branch_name>
