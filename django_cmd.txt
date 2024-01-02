@@ -12,7 +12,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 git init
 git add .
-git commit -m "core app ready - first commit message created from txt file"
+git commit -m "files added & first commit done"
 py manage.py runserver
 =================================================================
 python -m venv .venv
