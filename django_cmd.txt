@@ -100,6 +100,11 @@ py manage.py startapp
 py manage.py makemigrations
 py manage.py migrate
 
+py manage.py createsuperuser --username carbon-ahs --email shehanuk.ahsan@gmail.com
+1234
+1234
+y
+
 py manage.py createsuperuser
 carbon-ahs
 shehanuk.ahsan@gmail.com
