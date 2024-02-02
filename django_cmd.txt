@@ -1,11 +1,16 @@
 -----------------------------------------------------------------
 ||    01110100 01100001 01101001 01100111 01100101             ||
 =================================================================
+		Git Commands
+=================================================================
+git init .
+git remote add origine <repo_link>
+git pull origine
+git checkout <branch_name>
 
+================================================================
 		INIT A NEW PROJECT IN VSCODE CMD
-
-
-
+================================================================
 python -m venv .venv
 .venv\Scripts\activate.bat
 python -m pip install --upgrade pip
@@ -14,6 +19,7 @@ git init
 git add .
 git commit -m "files added & first commit done"
 py manage.py runserver
+
 =================================================================
 python -m venv .venv
 .venv\Scripts\activate.bat
@@ -37,7 +43,6 @@ git add .
 git commit -m "first commit message created from txt file"
 py manage.py runserver
 
-
 __________________________________________________________________
 ------------------------------------------------------------------
 __________________________________________________________________
@@ -45,12 +50,8 @@ __________________________________________________________________
 py manage.py startapp core 
 mkdir .\core\templates\core
 type nul > .\core\templates\core\home.html
-<!-- templates/home.html -->
-<h1>Homepage</h1>
-
 "<!-- templates/home.html --><h1>Homepage</h1>" > .\core\templates\core\home.html
 =================================================================
-
 		Deply to python anywhere
 /home/carbonahs/django_pythonanywhere
 /home/carbonahs/.virtualenvs/test_env
@@ -60,27 +61,18 @@ python3 -m venv env
 source env/bin/activate 
 cd <repo folder>
 pip install -r requirements.txt 
-
-
 mkvirtualenv --python=/usr/bin/python3.8 test_env
 source test_env/bin/activate
 
-
-
 =================================================================
-
 		Model Class Imports
-
 =================================================================
-
 from django.db import models
 from django.urls import reverse
 from django.utils.translation import gettext_lazy as _
 
 *****************************************************************
-
 			random commands
-
 *****************************************************************
 "DIRS": [BASE_DIR / "templates"], 
 STATIC_URL = "/static/"
@@ -137,14 +129,4 @@ python manage.py migrate admin zero
 python manage.py migrate auth zero
 python manage.py migrate contenttypes zero
 python manage.py migrate sessions zero
-
-=================================================
-
-==================================================
-git init .
-git remote add origine <repo_link>
-git pull origine
-git checkout <branch_name>
-==================================
-
 
