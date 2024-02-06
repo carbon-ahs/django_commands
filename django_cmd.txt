@@ -51,11 +51,8 @@ py manage.py startapp core
 mkdir .\core\templates\core
 type nul > .\core\templates\core\home.html
 "<!-- templates/home.html --><h1>Homepage</h1>" > .\core\templates\core\home.html
-=================================================================
-		Deply to python anywhere
-/home/carbonahs/django_pythonanywhere
-/home/carbonahs/.virtualenvs/test_env
-=================================================================
+
+
 git clone <repo link>
 python3 -m venv env 
 source env/bin/activate 
@@ -130,3 +127,9 @@ python manage.py migrate auth zero
 python manage.py migrate contenttypes zero
 python manage.py migrate sessions zero
 
+=================================================================
+		Deply to python anywhere
+================================================================
+/home/carbonahs/django_pythonanywhere
+/home/carbonahs/.virtualenvs/test_env
+=================================================================
