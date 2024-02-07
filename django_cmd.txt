@@ -52,6 +52,7 @@ mkdir .\core\templates\core
 type nul > .\core\templates\core\home.html
 "<!-- templates/home.html --><h1>Homepage</h1>" > .\core\templates\core\home.html
 
+__________________________________________________________________
 
 git clone <repo link>
 python3 -m venv env 
@@ -77,56 +78,49 @@ STATICFILES_DIRS = [BASE_DIR / "static"]
 pip freeze > requirements.txt
 git add .
 git commit -m "
-
+__________________________________________________________________
 django-admin startproject
-
 py manage.py runserver
 py manage.py runserver 0.0.0.0:8000
-
+__________________________________________________________________
 py manage.py startapp 
-
-
+__________________________________________________________________
 py manage.py makemigrations
 py manage.py migrate
-
+__________________________________________________________________
 py manage.py createsuperuser --username carbon-ahs --email shehanuk.ahsan@gmail.com
 1234
 1234
 y
-
+__________________________________________________________________
 py manage.py createsuperuser
 carbon-ahs
 shehanuk.ahsan@gmail.com
 1234
 1234
 y
-
-
+__________________________________________________________________
 pip install whitenoise==6.0.0
 pip install django-cors-headers==3.10
 python manage.py showmigrations
 python manage.py migrate --fake <app_name> zero
-
+__________________________________________________________________
 pip install dj-rest-auth==2.1.11
 pip install django-allauth==0.48.0
 pip install drf-spectacular==0.21.0
 pip install django-debug-toolbar
 pip install mysqlclient
-
-python manage.py showmigrations
-
+__________________________________________________________________
 python manage.py migrate --fake admin zero
 python manage.py migrate --fake auth zero
 python manage.py migrate --fake contenttypes zero
 python manage.py migrate --fake sessions zero
-
+__________________________________________________________________
 python manage.py showmigrations
-
 python manage.py migrate admin zero
 python manage.py migrate auth zero
 python manage.py migrate contenttypes zero
 python manage.py migrate sessions zero
-
 =================================================================
 		Deply to python anywhere
 ================================================================
