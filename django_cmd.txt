@@ -127,3 +127,14 @@ python manage.py migrate sessions zero
 /home/carbonahs/django_pythonanywhere
 /home/carbonahs/.virtualenvs/test_env
 =================================================================
+
+
+
+=================================================================
+		Git setup
+================================================================
+git config --global user.name "carbon-ahs"
+git config --global user.email shehanuk.ahsan@gmail.com
+=================================================================
+
+
